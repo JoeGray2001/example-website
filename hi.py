@@ -1,10 +1,3 @@
-"""Functions for calculating steps in exchanging currency.
-
-Python numbers documentation: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
-
-Overview of exchanging currency when travelling: https://www.compareremit.com/money-transfer-tips/guide-to-exchanging-currency-for-overseas-travel/
-"""
-
 
 
 def exchange_money(budget, exchange_rate):
@@ -14,7 +7,7 @@ def exchange_money(budget, exchange_rate):
     :param exchange_rate: float - unit value of the foreign currency.
     :return: float - exchanged value of the foreign currency you can receive.
     """
-return(budget/exchange_rate)
+    return(budget/exchange_rate)
 exchange_money(127.5, 1.2)
 
 
@@ -29,11 +22,3 @@ def get_change(budget, exchanging_value):
     return(budget - exchanging_value)
 get_change(127.5, 120)
 
-def get_value_of_bills(denomination, number_of_bills):
-    """
-
-    :param denomination: int - the value of a bill.
-    :param number_of_bills: int - total number of bills.
-    :return: int - calculated value of the bills.
-    """
-    return(int())
